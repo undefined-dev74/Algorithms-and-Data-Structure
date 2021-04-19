@@ -10,3 +10,5 @@ const linearSearch = (arr, val) => {
 const arr = [56, 78, 93, 25, 13, 57, 98, 1001];
 
 console.log(linearSearch(arr, 57));
+
+//! Big O of this algorithm is O(n)
