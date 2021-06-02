@@ -17,20 +17,20 @@ const NaiveStringSearch = (long, short) => {
   return count++;
 };
 
-// const NaiveStringSearch = (str, word) => {
-//   let count = 0;
-//   for (let i = 0; i < str.length; i++) {
-//     for (let j = 0; j < word.length; j++) {
-//       if (word[j] !== str[i + j]) {
-//         break;
-//       }
-//       if (j === word.length - 1) {
-//         count++;
-//         console.log('Fount the Match');
-//       } else {
-//         console.log('Please try again');
-//       }
-//     }
-//   }
-//   return count;
-// };
+const NaiveStringSearch = (str, word) => {
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    for (let j = 0; j < word.length; j++) {
+      if (word[j] !== str[i + j]) {
+        break;
+      }
+      if (j === word.length - 1) {
+        count++;
+        console.log('Fount the Match');
+      } else {
+        console.log('Please try again');
+      }
+    }
+  }
+  return count;
+};
