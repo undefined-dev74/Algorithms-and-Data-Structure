@@ -36,7 +36,8 @@ const binarySearch = (arr, elem) => {
     }
     middle = Math.floor((start + end) / 2);
     arr[middle] === elem ? middle : -1;
+    console.log(arr[end]);
   }
 };
 
-console.log(binarySearch(arr, 62));
+console.log(binarySearch(arr, 72));
